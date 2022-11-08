@@ -1,0 +1,1 @@
+function areOccurrencesEqual(s){s = [...s].reduce((a, c) => (a[c] = a[c] + 1 || 1) && a, {}); return new Set(Object.values(s)).size === 1;}

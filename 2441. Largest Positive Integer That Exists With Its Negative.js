@@ -1,0 +1,1 @@
+findMaxK=(s, jz = new Set(s), sol = -1)=>{for(z of s)if(z > 0 && z > sol && jz.has(-z))sol = z;return sol}

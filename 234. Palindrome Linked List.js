@@ -1,0 +1,1 @@
+isPalindrome=(head,sol=[],isPalindrome=true)=>{while(head) sol.push(head.val), head = head.next;for(i = 0; i < sol.length / 2; i++)if(sol[i]!== sol[sol.length-i-1])isPalindrome=false;return isPalindrome}
